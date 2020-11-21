@@ -15,7 +15,7 @@ if (!empty($location)) {
 		CURLOPT_CUSTOMREQUEST => "GET",
 		CURLOPT_HTTPHEADER => [
 			"x-rapidapi-host: community-open-weather-map.p.rapidapi.com",
-			"x-rapidapi-key: fa571595a3mshc43f545094b05acp178971jsnd3123f567397"
+			"x-rapidapi-key: "
 		],
 	]);
 
