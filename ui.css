@@ -1,0 +1,47 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+}
+.error,.error h1{
+	text-align: center;color: red;
+}
+input{
+	width: 200px;
+	padding: 10px;
+}
+.search{
+	text-align: center;
+}
+
+.date_location_temp_div,.weekdays{
+	text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+.date_location_temp_div .temp,.date_location_temp_div .datetime,.date_location_temp_div .location{
+	/*width: 30%;*/
+	margin: 10px;
+	/*float: left;*/
+	padding: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+}
+.weekdays .sun,
+.weekdays .mon,
+.weekdays .tue,
+.weekdays .wed,
+.weekdays .thur,
+.weekdays .fri,
+.sat
+{
+	/*width: 30%;*/
+	margin: 10px;
+	float: left;
+	padding: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+}
