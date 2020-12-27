@@ -12,7 +12,7 @@
 		<div class="search"><input type="text" placeholder="Search by location"></div>
 		<br>
 		<div class="date_location_temp_div">
-			<p class="datetime">current date and time <br><span><?php echo $d = date('Y-m-d H:i:s'); ?></span></p>
+			<p class="datetime">current date and timess <br><span><?php echo $d = date('Y-m-d H:i:s'); ?></span></p>
 			<p class="temp">Tempurature <br><span></span></p>
 			<p class="location">location <br><span></span></p>
 		</div>
